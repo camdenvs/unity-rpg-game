@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 1493486984}
   - component: {fileID: 1493486985}
   - component: {fileID: 1493486983}
+  - component: {fileID: 1493486986}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -316,6 +317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 1493486985}
+  animator: {fileID: 1493486986}
 --- !u!61 &1493486984
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -388,3 +390,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1493486986
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493486980}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2053ed872caad7b40a5a6cafc7c845ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
